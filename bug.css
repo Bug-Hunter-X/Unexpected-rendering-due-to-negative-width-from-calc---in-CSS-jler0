@@ -1,0 +1,1 @@
+The following CSS rule uses a `calc()` function to set the width of an element to `calc(100% - 10px)`.  However, this calculation can result in a negative width if the containing element has a width less than 10px, causing unexpected rendering issues, such as the element disappearing or collapsing unexpectedly.
