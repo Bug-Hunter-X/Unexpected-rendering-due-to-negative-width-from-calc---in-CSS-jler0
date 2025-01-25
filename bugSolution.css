@@ -1,0 +1,10 @@
+The solution is to add a `min-width` or `max-width` to the CSS rule. For example:
+
+```css
+#myElement {
+  width: calc(100% - 10px);
+  min-width: 0;
+}
+```
+
+This ensures that the width never falls below 0, preventing the unexpected rendering behavior.
